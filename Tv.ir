@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: On
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+# 
+name: Play
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 1A 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: SIRC20
+address: 5A 1C 00 00
+command: 19 00 00 00
+# 
+name: +
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 12 00 00 00
+# 
+name: -
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+# 
+name: HDMI
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 25 00 00 00
